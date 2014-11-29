@@ -1,0 +1,113 @@
+#wpadminbar img.gravatar {
+    box-shadow: none;
+}
+#header {
+    background-color: #464646;
+    background-image: url(../images/wordpress-background.png);
+    padding-bottom: 0;
+}
+body.action-index h3.post-title {
+    font-family: Georgia, Arial;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+body.action-index h3.post-title a {
+    font-size: 160%;
+}
+article header.post-header h2.post-title {
+    font-family: Georgia, Arial;
+    font-weight: normal;
+    font-size: 18pt;
+    margin-bottom: 0;
+}
+article header.post-header > p {
+    margin-top: 5px;
+}
+article header.post-header .author {
+    font-style: italic;
+    font-size: 0.9em;
+}
+.wiki img.size-thumbnail,
+.wiki img.attachment-thumbnail,
+.wiki img.attachment-post-thumbnail,
+.wiki div.attachment-post-thumbnail img {
+    -moz-box-shadow: 1px 1px 2px #b4b4b4;
+    box-shadow: 1px 1px 2px #b4b4b4;
+}
+.gallery img {
+    padding: 2px;
+    border: solid 1px #d5d5d5 !important;
+    background: #fff;
+}
+.gallery img.attachment-thumbnail {
+    -moz-box-shadow: 2px 3px 3px #b4b4b4;
+    box-shadow: 2px 3px 3px #b4b4b4;
+}
+article .wiki.post-content h1,
+article .wiki.post-content h2,
+article .wiki.post-content h3,
+article .wiki.post-content h4,
+article .wiki.post-content h5,
+article .wiki.post-content h6 {
+    color: #444;
+    border-bottom: none;
+    font-weight: normal;
+}
+article .wiki.post-content h1 {
+    font-size: 17pt;
+}
+article .wiki.post-content h2 {
+    font-size: 16pt;
+}
+article .wiki.post-content h3 {
+    font-size: 15pt;
+}
+article .wiki.post-content h4 {
+    font-size: 14pt;
+}
+article .wiki.post-content h5 {
+    font-size: 13pt;
+}
+article .wiki.post-content h6 {
+    color: inherit;
+    font-size: 12pt;
+}
+.single-post .contextual {
+    margin-top: 5px !important;
+}
+.single-post .post-header .contextual {
+    margin-top: 10px !important;
+}
+#top-menu ul.menu span.moderated-comments-count {
+    color: #fff;
+    background-color: #c61a1a;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    padding: 0px 2px;
+    margin-left: 2px;
+}
+#top-menu ul.menu span.moderated-comments-count:before,
+#top-menu ul.menu span.moderated-comments-count:after {
+    content: '';
+}
+#sidebar ul li {
+    padding-left: 1em;
+}
+#sidebar ul li:before {
+    content: '»';
+    position: absolute;
+    margin-left: -1em;
+}
+.wp-caption.box {
+    -moz-box-shadow: 1px 1px 2px #b4b4b4;
+    box-shadow: 1px 1px 2px #b4b4b4;
+    background-color: #f6f6f6;
+    border-color: #e4e4e4;
+    border-radius: 0;
+}
+.wp-caption-text {
+    margin-top: 3px !important;
+}
+#respond div.wiki.help {
+    font-family: Tahoma, Verdana;
+}

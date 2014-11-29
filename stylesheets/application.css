@@ -1,0 +1,599 @@
+@import url(../../../stylesheets/application.css);
+@import url(mobile.css) (max-width: 600px); /* max-device-width */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Tahoma, Verdana;
+    color: #001220;
+}
+#wrapper {
+    margin: 0 20px;
+    padding-left: 7px;
+    background-image: url(../images/page-left.png);
+    background-position: left top;
+    background-repeat: repeat-y;
+}
+#wrapper2 {
+    padding-right: 7px;
+    background-color: #fff;
+    background-image: url(../images/page-right.png);
+    background-position: right top;
+    background-repeat: repeat-y;
+}
+#top-menu, #header, #footer {
+    margin: 0 7px;
+    background-color: #353d43;
+}
+#top-menu {
+    margin-bottom: -2px;
+    background-color: #000;
+    font-size: 8pt;
+}
+#top-menu a {
+    margin-left: 4px;
+    margin-right: 8px;
+    color: #c07600;
+}
+#top-menu #loggedas {
+    color: #8f969d;
+}
+#top-menu #loggedas a {
+    color: #bff196;
+}
+#header {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    background-color: #374047;
+    background-image: url(../images/header-background.png);
+    background-repeat: repeat-x;
+    color: #8f969d;
+    height: auto;
+    min-height: 5.3em;
+}
+#header h1 {
+    font-family: Georgia, Arial;
+    font-weight: normal;
+    font-size: 18pt;
+    color: #fff;
+    float: none;
+    overflow: hidden;
+}
+#header a {
+    color: #8f969d;
+}
+#header h1 a {
+    color: #fff;
+}
+#main-menu {
+    left: auto;
+    right: 10px;
+    margin-right: 0;
+}
+#main-menu li {
+    margin-right: 1px;
+}
+#main-menu li a {
+    padding: 5px 14px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    background-color: #536a3f;
+    background-image: url(../images/menu-background.png);
+    background-repeat: repeat-x;
+}
+#main-menu li a:hover {
+    background-color: #657c44;
+    background-image: url(../images/menu-selected.png);
+}
+#main {
+    background-color: transparent;
+}
+#content {
+    width: 74%;
+    border-right: none;
+}
+#content .tabs ul li {
+    margin-right: 1px;
+}
+#content .tabs ul li a {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+}
+.box {
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: #E9FACD;
+    border-color: #B8D573;
+}
+fieldset {
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-color: #B8D573;
+}
+#issue-form .box fieldset, div.issue fieldset, #query_form fieldset {
+    border-color: #E4C742;
+}
+#login-form table {
+    border-width: 1px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+#errorExplanation, div.flash, .nodata, .warning {
+    border-width: 1px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+#sidebar {
+    margin-top: 1em;
+    margin-right: 7px;
+    padding: 6px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: #fdf7bb;
+    background-image: url(../images/yellow-box-background.png);
+    background-repeat: repeat-x;
+    border: 1px solid #E4C742;
+}
+#sidebar h3, div#issue-changesets h3 {
+    padding: 4px 6px;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    background-color: #353d43;
+    background-image: url(../images/footer-background.png);
+    background-repeat: repeat-x;
+    color: #bff196;
+}
+#sidebar > h3:first-child,
+#sidebar > *:first-child > h3:first-child,
+#sidebar > *:first-child > .contextual:first-child + h3 {
+    margin-top: 0;
+}
+#sidebar a.selected {
+    background-color: #536a3f;
+}
+#sidebar .wiki-anchor {
+    visibility: hidden;
+}
+div#issue-changesets h3 {
+    margin: 0;
+}
+div#issue-changesets .changeset {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+div#issue-changesets p {
+    margin-bottom: 0.5em;
+}
+div#issue-changesets .changeset-changes {
+    border-top: 1px dotted #cf973d;
+    padding-top: 0.75em;
+}
+#footer {
+    border-top: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    background-image: url(../images/footer-background.png);
+    background-repeat: repeat-x;
+    color: #8f969d;
+}
+#footer a {
+    color: #c07600;
+}
+table.list {
+    border: 1px solid #ddd;
+}
+table.list th {
+    padding: 2px;
+}
+table.list thead th {
+    background-color: #536A3F;
+    color: #fff;
+}
+table.list thead th a {
+    color: #fff;
+}
+table.list tbody tr:hover {
+    background-color: #FDF7BB;
+}
+table.progress {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #606060 #d2d2d2 #d2d2d2 #606060;
+    -moz-box-shadow: 1px 2px 2px #b4b4b4;
+    box-shadow: 1px 2px 2px #b4b4b4;
+}
+table.progress td {
+    height: 0.5em;
+}
+table.progress td.todo {
+    background-color: #fff;
+}
+table.progress td.closed {
+    background-color: #7ca858;
+    background-image: url(../images/progress-background.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+table.progress td.done {
+    background-color: #E9FACD;
+}
+div.wiki table, div.wiki td, div.wiki th {
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+div.wiki th {
+    background-color: #536A3F;
+    color: #fff;
+}
+img.gravatar {
+    -moz-box-shadow: 2px 3px 3px #b4b4b4;
+    box-shadow: 2px 3px 3px #b4b4b4;
+}
+h4 img.gravatar {
+    margin-right: 0.25em;
+}
+div.issue table img.gravatar, #watchers img.gravatar {
+    -moz-box-shadow: 1px 2px 2px #b4b4b4;
+    box-shadow: 1px 2px 2px #b4b4b4;
+}
+pre, code {
+    font-family: Terminus, Liberation Mono, Courier New;
+    font-size: 9pt;
+}
+code {
+    padding: 1px 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 1px 1px 2px #b4b4b4;
+    box-shadow: 1px 1px 2px #b4b4b4;
+    background-color: #fff;
+    border: 1px solid #b4b4b4;
+    line-height: 20px;
+}
+pre code {
+    padding: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    line-height: 15px;
+}
+blockquote {
+    font-style: normal;
+    border: 1px solid #b4b4b4;
+    background-color: #f3f3f3;
+    background-color: rgba(243,243,243,0.5);
+    background-image: url(../images/quote.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 1px 2px 2px #b4b4b4;
+    box-shadow: 1px 2px 2px #b4b4b4;
+    margin-left: 2em;
+    padding-right: 24px;
+}
+blockquote blockquote {
+    margin-right: 0;
+}
+div.wiki pre {
+    padding: 3px;
+    line-height: 15px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 1px 2px 2px #b4b4b4;
+    box-shadow: 1px 2px 2px #b4b4b4;
+    background-color: #F3F3F3;
+    background-image: url(../images/code-background.png);
+    background-position: left 3px;
+    border-color: #b4b4b4;
+    white-space: pre-wrap;
+}
+table.filecontent {
+    border-collapse: separate !important;
+    border-spacing: 0;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #F3F3F3 !important;
+    background-image: url(../images/code-background.png);
+    border-color: #b4b4b4;
+}
+table.filecontent tbody tr.spacing td {
+    background-color: transparent;
+    background-image: url(../images/torn-background.png);
+    background-repeat: repeat-x;
+}
+table.filecontent th.filename {
+    padding: 0 !important;
+    line-height: 15px;
+    font-family: Terminus, Liberation Mono, Courier New;
+    font-size: 9pt !important;
+    text-align: center !important;
+    border: none;
+    background-color: #536A3F !important;
+    color: #fff;
+}
+table.filecontent th, table.filecontent td {
+    padding: 0;
+}
+table.filecontent th.line-num, table.filecontent th.filename {
+    line-height: 15px;
+    font-family: Terminus, Liberation Mono, Courier New;
+    font-size: 9pt !important;
+    border: none !important;
+    background-color: #536A3F;
+    color: #fff !important;
+}
+table.filecontent td.line-code pre {
+    font-family: Terminus, Liberation Mono, Courier New;
+    margin-left: 2px !important;
+    line-height: 15px;
+}
+.syntaxhl .no {
+    background-color: #536A3F !important;
+    color: #fff !important;
+}
+hr {
+    background-color: #CF973D;
+}
+#issue-form .box, div.issue {
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: #fdf7bb;
+    border: 1px solid #E4C742;
+}
+form em {
+    font-style: normal;
+    font-size: 90%;
+    color: #888;
+}
+.odd {
+    background-color: #f3f3f3;
+}
+tr.context-menu-selection, tr.context-menu-selection:hover {
+    background-color: #536A3F !important;
+}
+.summary {
+    font-style: normal;
+}
+.controller-wiki #content .wiki, .controller-news #content .wiki {
+    font-family: Georgia, Arial;
+    font-size: 10pt;
+}
+.controller-wiki .wiki h1, .controller-wiki .wiki h2, .controller-wiki .wiki h3, .controller-wiki .wiki h4, .controller-wiki .wiki h5,
+.controller-news .wiki h1, .controller-news .wiki h2, .controller-news .wiki h3, .controller-news .wiki h4, .controller-news .wiki h5 {
+    font-family: Georgia, Arial;
+}
+#content > h2,
+.controller-wiki #content .wiki > h1:first-of-type {
+    font-family: Georgia, Arial;
+    font-weight: normal;
+    font-size: 18pt;
+}
+.journal-link {
+    font-weight: normal;
+}
+#history h4 {
+    font-family: Tahoma, Verdana;
+    font-weight: normal;
+}
+div.wiki ul.toc {
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -moz-box-shadow: 2px 3px 3px #b4b4b4;
+    box-shadow: 2px 3px 3px #b4b4b4;
+    background-color: #fdf7bb;
+    background-image: url(../images/yellow-box-background.png);
+    background-repeat: repeat-x;
+    border: 1px solid #E4C742;
+}
+div.wiki ul.toc a {
+    font-size: 9pt;
+    color: #c07600;
+}
+.controller-wiki div.wiki li {
+    margin: 1em 0;
+}
+.controller-wiki div.wiki ul.toc li {
+    margin: 0;
+}
+div.wiki ul.toc ul {
+    padding-left: 0.75em;
+}
+div.wiki ul.toc li li {
+    margin-left: 1em;
+}
+div.wiki ul.toc li li li {
+    font-size: inherit;
+}
+div.wiki ul.toc li.heading2 {
+    margin-left: 1em;
+}
+div.wiki ul.toc li.heading3 {
+    margin-left: 2em;
+}
+div.wiki ul.toc li.heading4, div.wiki ul.toc li.heading5, div.wiki ul.toc li.heading6 {
+    margin-left: 3em;
+}
+ul.projects {
+    padding-left: 2em;
+}
+ul.projects ul.projects {
+    border-left: none;
+}
+ul.projects div.root a.project {
+    font-family: Verdana, Tahoma;
+    font-size: 11pt;
+}
+ul.projects div.child a.project {
+    font-family: Verdana, Tahoma;
+    font-weight: bold;
+    font-size: 10pt;
+}
+ul.projects div.description {
+    margin-top: 0.5em;
+}
+ul.projects div.description a.project {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+a, a:link, a:visited {
+    color: #c07600;
+}
+.wiki a, .wiki a:link, .wiki a:visited {
+    color: #2a5685;
+}
+a:hover, .wiki a:hover, a:active, .wiki a:active {
+    color: #c61a1a;
+}
+tr.priority-highest a, a.priority-highest {
+    color: #a80a0a;
+}
+tr.priority-high2 a, a.priority-high2,
+tr.priority-high3 a, a.priority-high3,
+tr.priority-high4 a, a.priority-high4 {
+    color: #b44005;
+}
+tr.priority-low2 a, a.priority-low2,
+tr.priority-low3 a, a.priority-low3,
+tr.priority-low4 a, a.priority-low4 {
+    color: #60583b;
+}
+tr.priority-lowest a, a.priority-lowest {
+    color: #003a77;
+}
+tr.closed a, a.closed {
+    font-style: italic;
+}
+h1, h2, h3, h4, h5 {
+    font-family: Verdana, Tahoma;
+}
+h2 {
+    font-size: 14pt;
+}
+h3 {
+    font-size: 11pt;
+}
+h4 {
+    border-bottom: 1px dotted #cf973d;
+}
+h2, h3, .wiki h1, .wiki h2 {
+    color: #cf973d;
+    border-bottom: 1px solid #cf973d;
+}
+.wiki h3, .wiki h4 {
+    color: #cf973d;
+    border-bottom: 1px dotted #cf973d;
+}
+.wiki h5 {
+    color: #cf973d;
+}
+input[type="text"], input[type="password"], select, textarea {
+    border-top: 1px solid #606060;
+    border-left: 1px solid #606060;
+    border-right: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 2px;
+    background-color: #fff;
+}
+input.button-small, input[type="submit"], input[type="button"] {
+    border-width: 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: #536a3f;
+    background-image: url(../images/menu-background.png);
+    background-repeat: repeat-x;
+    border-color: #afc69c #435335 #435335 #afc69c;
+    color: #fff;
+}
+input:active.button-small, input:active[type="submit"], input:active[type="button"] {
+    border-color: #435335 #afc69c #afc69c #435335;
+}
+input.button-small, input[type="button"] {
+    padding: 0px 6px 4px 6px;
+}
+input[type="submit"] {
+    padding: 4px 12px;
+}
+input[type="submit"][disabled="disabled"], button[disabled="disabled"] {
+    background-color: #5e5e5e;
+    background-image: url(../images/menu-disabled.png);
+    border-color: #bababa #4b4b4b #4b4b4b #bababa;
+}
+.jstElements button {
+    margin-right: 1px !important;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-color: #d2d2d2 #606060 #606060 #d2d2d2 !important;
+}
+.jstElements button:active {
+    border-color: #606060 #d2d2d2 #d2d2d2 #606060 !important;
+}
+#sidebar iframe.follow-button:first-child {
+    margin-top: 0.3em;
+}
+.controller-news.action-index #content > h3 {
+    font-family: Georgia, Arial;
+    font-weight: normal;
+}
+.controller-news.action-index #content > h3 a {
+    font-size: 160%;
+}
+.controller-news.action-index #content > div.wiki {
+    margin-bottom: 2em;
+}
+#content > .contextual {
+    margin-top: 10px;
+}
+.controller-news.action-index p.author,
+.controller-news.action-show #content > p:first-of-type {
+    font-style: italic;
+    font-size: 0.9em;
+}
+.controller-news.action-show #content > p:first-of-type em {
+    color: #777;
+}
+.controller-news .wiki h1, .controller-news .wiki h2, .controller-news .wiki h3, .controller-news .wiki h4, .controller-news .wiki h5, .controller-news .wiki h6 {
+    color: #444;
+    border-bottom: none;
+    font-weight: normal;
+}
+.controller-news .wiki h1 {
+    font-size: 17pt;
+}
+.controller-news .wiki h2 {
+    font-size: 16pt;
+}
+.controller-news .wiki h3 {
+    font-size: 15pt;
+}
+.controller-news .wiki h4 {
+    font-size: 14pt;
+}
+.controller-news .wiki h5 {
+    font-size: 13pt;
+}
+.controller-news .wiki h6 {
+    color: inherit;
+    font-size: 12pt;
+}
+#main-menu div.tabs-buttons {
+    background: transparent;
+}

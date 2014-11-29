@@ -1,0 +1,119 @@
+body {
+    min-width: inherit;
+}
+#wrapper {
+    margin: 0 !important;
+    padding-left: 0 !important;
+    background-image: none !important;
+}
+#wrapper2 {
+    padding-right: 0 !important;
+    background-image: none !important;
+}
+#top-menu {
+    overflow: hidden;
+    height: auto;
+}
+#top-menu > ul {
+    overflow: hidden;
+    margin: 3px 0 5px 0;
+}
+#account {
+    overflow: hidden;
+    float: none;
+    clear: both;
+}
+#account ul {
+    padding-bottom: 3px;
+}
+#top-menu #loggedas {
+    text-align: center;
+    float: none;
+}
+#header {
+    overflow: hidden;
+}
+#quick-search {
+    margin-bottom: 5px;
+    float: none;
+}
+#quick-search input {
+    width: 98%;
+}
+#quick-search select {
+    width: 100%;
+}
+#main-menu {
+    position: static;
+    clear: both;
+}
+#main-menu ul {
+    width: 2000px;
+}
+#main-menu div.tabs-buttons {
+    border-bottom: none;
+}
+#main-menu div.tabs-buttons button.tab-left,
+#main-menu div.tabs-buttons button.tab-right {
+    bottom: 0px;
+}
+#sidebar {
+    float: none;
+    width: auto;
+    margin-left: 7px;
+}
+#sidebar-toggler {
+    background-position: 50%;
+    cursor: pointer;
+    display: block;
+    height: 8px;
+}
+#content {
+    width: auto !important;
+}
+html > body #content {
+    min-height: inherit;
+}
+#login-form table {
+    margin-top: 1px;
+    padding: 0.25em;
+}
+#login-form table td {
+    padding: 0;
+}
+#login-form input#username,
+#login-form input#password {
+    width: auto;
+}
+input[type="text"],
+input[type="password"] {
+    max-width: 96%
+}
+#footer {
+    font-size: 0.8em;
+}
+.splitcontentleft,
+.splitcontentright {
+    float: none;
+    width: auto;
+}
+.tabular p {
+    padding-left: 0;
+}
+.tabular label {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    display: block;
+    text-align: left;
+}
+ul {
+    padding-left: 25px;
+}
+div#activity dl,
+#search-results {
+    margin-left: 0.5em;
+}
+#activity dt img.gravatar {
+    margin: 0 0.5em 0.5em 0;
+}
