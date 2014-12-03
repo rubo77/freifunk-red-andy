@@ -617,3 +617,9 @@ h1, h1 a, #header h1 a, #header h1{
     background-color: #EEE;
     font-size: 10pt;
 }
+@media (max-width: 600px) {
+    #header {
+        padding-left:0;
+        background: none;
+    }
+}
