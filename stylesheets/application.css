@@ -649,3 +649,6 @@ h1, h1 a, #header h1 a, #header h1{
     padding-bottom: 11px;
 }
 
+#account {
+    float: right;
+}
