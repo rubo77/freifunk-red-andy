@@ -598,9 +598,9 @@ input[type="submit"][disabled="disabled"], button[disabled="disabled"] {
     background: transparent;
 }
 #header{
-    padding-left: 200px;
+    padding-left: 206px;
 	border-bottom: 1px solid black;
-	background: url('http://freifunk.in-kiel.de/images/ffki-logo.svg') no-repeat scroll left bottom / auto 100% transparent;
+    background: url('http://freifunk.in-kiel.de/images/ffki-logo.svg') no-repeat scroll 20px bottom / auto 100% transparent;
 	min-height: 110px;
 	background-repeat: no-repeat;
 }
@@ -623,3 +623,29 @@ h1, h1 a, #header h1 a, #header h1{
         background: none;
     }
 }
+#wrapper {
+    margin: 0px 0px;
+    padding-left: 0px;
+    background-image: 0;
+}
+
+#top-menu {
+    margin-bottom: -5px;
+}
+
+#top-menu, #header, #footer {
+    margin: 0px 0px;
+}
+
+#quick-search {
+    margin-top: -20px;
+}
+#wrapper2 {
+    padding-right: 0px;
+    background-image: none;
+}
+
+#header > h1:nth-child(2){
+    padding-bottom: 11px;
+}
+
