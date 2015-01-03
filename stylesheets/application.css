@@ -600,7 +600,7 @@ input[type="submit"][disabled="disabled"], button[disabled="disabled"] {
 #header{
     padding-left: 206px;
 	border-bottom: 1px solid black;
-    background: url('http://wiki.freifunk.net/images/4/43/Freifunk-logo.svg') no-repeat scroll 20px bottom / auto 100% transparent;
+    background: url("http://zelf.de/redmine/images/logo.jpg") no-repeat scroll 20px bottom / auto 100% transparent;
 	min-height: 110px;
 	background-repeat: no-repeat;
 }
