@@ -4,7 +4,7 @@
 body {
     background-color: #f0f0f0;
     font-family: Tahoma, Verdana;
-    color: #001220;
+    color: #000000;
 }
 #wrapper {
     margin: 0 20px;
@@ -32,7 +32,7 @@ body {
 #top-menu a {
     margin-left: 4px;
     margin-right: 8px;
-    color: #c07600;
+    color: #409020;
 }
 #top-menu #loggedas {
     color: #8f969d;
@@ -175,7 +175,7 @@ div#issue-changesets p {
     margin-bottom: 0.5em;
 }
 div#issue-changesets .changeset-changes {
-    border-top: 1px dotted #cf973d;
+    border-top: 1px dotted #499929;
     padding-top: 0.75em;
 }
 #footer {
@@ -189,7 +189,7 @@ div#issue-changesets .changeset-changes {
     color: #8f969d;
 }
 #footer a {
-    color: #c07600;
+    color: #409020;
 }
 table.list {
     border: 1px solid #ddd;
@@ -232,6 +232,9 @@ table.progress td.done {
 div.wiki table, div.wiki td, div.wiki th {
     border: 1px solid #ddd;
     padding: 3px;
+}
+div.wiki p {
+    color:blue;
 }
 div.wiki th {
     background-color: #536A3F;
@@ -348,7 +351,7 @@ table.filecontent td.line-code pre {
     color: #fff !important;
 }
 hr {
-    background-color: #CF973D;
+    background-color: #499929;
 }
 #issue-form .box, div.issue {
     border-radius: 6px;
@@ -403,7 +406,7 @@ div.wiki ul.toc {
 }
 div.wiki ul.toc a {
     font-size: 9pt;
-    color: #c07600;
+    color: #409020;
 }
 .controller-wiki div.wiki li {
     margin: 1em 0;
@@ -453,7 +456,7 @@ ul.projects div.description a.project {
     font-size: inherit;
 }
 a, a:link, a:visited {
-    color: #c07600;
+    color: #409020;
 }
 .wiki a, .wiki a:link, .wiki a:visited {
     color: #2a5685;
@@ -490,18 +493,18 @@ h3 {
     font-size: 11pt;
 }
 h4 {
-    border-bottom: 1px dotted #cf973d;
+    border-bottom: 1px dotted #499929;
 }
 h2, h3, .wiki h1, .wiki h2 {
-    color: #cf973d;
-    border-bottom: 1px solid #cf973d;
+    color: #499929;
+    border-bottom: 1px solid #499929;
 }
 .wiki h3, .wiki h4 {
-    color: #cf973d;
-    border-bottom: 1px dotted #cf973d;
+    color: #499929;
+    border-bottom: 1px dotted #499929;
 }
 .wiki h5 {
-    color: #cf973d;
+    color: #499929;
 }
 input[type="text"], input[type="password"], select, textarea {
     border-top: 1px solid #606060;
