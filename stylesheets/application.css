@@ -657,3 +657,11 @@ div.wiki p {
 	font-size: 1.7em;
 	color:blue;
 }
+
+.icon-checked {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-right: 4px;
+    background-position: 2px 1px;
+    background-color: #eee;
+}
