@@ -675,8 +675,10 @@ div.wiki p {
 .details > .attributes:hover {
 	background-color:#ddd;
 }
-.details > .attributes:active {
-	height:auto;
+.details > .attributes:active, .details > .attributes:hover {
+	height:120px;
+	overflow:auto;
+	transition: height 1.1s ease-in;
 }
 /* Beschreibung weg */
 .details > p > strong:nth-child(1){
