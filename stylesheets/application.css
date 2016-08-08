@@ -600,7 +600,7 @@ input[type="submit"][disabled="disabled"], button[disabled="disabled"] {
 #header{
     padding-left: 206px;
 	border-bottom: 1px solid black;
-    background: url("http://zelf.de/redmine/images/logo.jpg") no-repeat scroll 20px bottom / auto 100% transparent;
+    background: url("//zelf.de/redmine/images/logo.jpg") no-repeat scroll 20px bottom / auto 100% transparent;
 	min-height: 110px;
 	background-repeat: no-repeat;
 }
